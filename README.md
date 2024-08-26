@@ -4,6 +4,13 @@
 
 - `TEST_OPENROUTER_API_KEY`: OpenRouter API key
 
+## Installation
+
+```
+# Need to install OpenAI SDK first
+npm install
+```
+
 ## Issues:
 
 ### messages-multi-user-content (Issue with Multi-User Content)
