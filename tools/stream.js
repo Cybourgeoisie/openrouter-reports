@@ -41,7 +41,7 @@ async function callStream() {
   const model = 'anthropic/claude-3.5-sonnet';
 
   try {
-    console.log('Stream started');
+    console.log('Stream started: Using Model', model);
 
     const stream = await openai.beta.chat.completions.stream({
       model,
