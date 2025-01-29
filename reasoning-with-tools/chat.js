@@ -18,9 +18,6 @@ async function callChat() {
             {
               type: 'text',
               text: 'can you create a new file called numbers1to10.txt and put the numbers 1 to 10 in it one line at a time',
-              protocraft: {
-                type: 'prompt'
-              }
             }
           ]
         }
@@ -71,9 +68,6 @@ async function callChat() {
             {
               type: 'text',
               text: 'can you create a new file called numbers1to10.txt and put the numbers 1 to 10 in it one line at a time',
-              protocraft: {
-                type: 'prompt'
-              }
             }
           ]
         }
