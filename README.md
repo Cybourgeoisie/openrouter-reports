@@ -23,6 +23,12 @@ npm install
 - Occurs in `stream.js`
 - `chat.js` works as expected here, the issue is only in streaming
 
+### reasoning-with-tools (Testing Tool Usage with Reasoning)
+- Tests tool usage with GPT-4 (openai/gpt-4o) using the include_reasoning parameter
+- Compares responses with and without the include_reasoning flag
+- Demonstrates tool usage with file creation capabilities
+- Occurs in both `chat.js` & `stream.js`
+
 ### Unavailable Endpoints (503 or 404)
 - Providers or endpoints are down / not available.
 - Occurs in both `chat.js` & `stream.js`
@@ -39,6 +45,9 @@ npm run start messages-multi-user-content chat
 npm run start messages-multi-user-content stream
 
 npm run start tools stream
+
+npm run start reasoning-with-tools chat
+npm run start reasoning-with-tools stream
 
 npm run start unavailable chat
 npm run start unavailable stream
